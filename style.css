@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body {
+    margin: 0px;
+    background-color: rgb(207, 250, 252);
+    font-family: Dosis;
+}
+
+nav {
+    position: fixed;
+    background-color: lightblue;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10vw 0 10vw;
+}
+
+.logo {
+    width: 6vw;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+}
+
+a:hover {
+    color: gray;
+}
+
+article {
+    padding: 15vh;
+}
+
+.product {
+    padding: 10vh;
+    background-color: lightblue;
+    width: 10vw;
+    height: auto;
+    max-height: 10vw;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.product:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product img {
+    width: 15vw;
+}
