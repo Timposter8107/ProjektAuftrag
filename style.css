@@ -35,19 +35,31 @@ a:hover {
     color: gray;
 }
 
-article {
+main {
     padding: 15vh;
+}
+
+main h2 {
+    font-size: 400%;
+}
+
+article {
+    display: flex;
+    justify-content: center; /* Centers the children horizontally */
+    align-items: center;
 }
 
 .product {
     padding: 10vh;
     background-color: lightblue;
     width: 10vw;
-    height: auto;
-    max-height: 10vw;
+    height: 10vw;
     border-radius: 30px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 0.5vw;
 }
 
 .product:hover {
@@ -56,5 +68,17 @@ article {
 }
 
 .product img {
-    width: 15vw;
+    max-width: 160%;
+    height: auto;
+}
+
+.productName {
+    font-size: 3vh;
+    margin: 2%;
+}
+
+.productPrice {
+    font-size: 2vh;
+    margin: 2%;
+    color: red;
 }
