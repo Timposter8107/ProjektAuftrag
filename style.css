@@ -19,17 +19,18 @@ nav {
 
 nav a {
     margin: 0 10vw 0 10vw;
+    font-size: 150%;
 }
 
 .logo {
-    width: 6vw;
+    width: 10vw;
     height: auto;
 }
 
 a {
     text-decoration: none;
     color: black;
-    font-size: 4vh;
+    font-size: 100px;
 }
 
 a:hover {
@@ -65,8 +66,8 @@ article {
 }
 
 .product img {
-    max-height: 130%;
-    height: auto;
+    max-height: auto;
+    height: 100%;
 }
 
 .productName {
@@ -81,14 +82,13 @@ article {
 }
 
 .category {
-    padding: 10vh;
+    padding: 3%;
     background-color: lightblue;
     width: 10vw;
-    height: 3vw;
+    height: auto;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 0.5vw;
 }
@@ -99,17 +99,20 @@ article {
 }
 
 .category img {
-    width: 60%;
+    height: 50px;
+    max-height: 200px;
+    max-width: 100%;
 }
 
 .categoryName {
     font-size: 3vh;
     margin: -1%;
+    text-align: center;
 }
 
 #emailInputNewsletter {
     width: 23%;
-    font-size: medium;
+    font-size: small;
 }
 
 #newsletterButton {
