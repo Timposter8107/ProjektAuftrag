@@ -134,3 +134,10 @@ footer {
 footer p, a {
     font-size: medium;
 }
+
+.noStyle {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
